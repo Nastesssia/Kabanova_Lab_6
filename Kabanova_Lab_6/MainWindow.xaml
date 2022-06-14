@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Kabanova_Lab_6"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -17,6 +17,8 @@
             <TextBox x:Name="InputValue" Margin="10" Height="25" />
             <Button Content="Add" Click="Button_Click"/>
             <Button Content="Remove" Margin="0 10" Click="Button_Click_1"/>
+            <TextBox x:Name="Output" Margin="10 40 10 0" Height="25" />
+            <Button Content="Sum" Margin="0 10" Click="Button_Click_2"/>
         </StackPanel>
     </Grid>
 </Window>
