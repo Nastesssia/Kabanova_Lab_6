@@ -41,5 +41,15 @@ namespace Kabanova_Lab_6
             list.Remove(double.Parse(NumberGrid.SelectedItem.ToString()));
             NumberGrid.Items.Remove(NumberGrid.SelectedItem.ToString());
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            double S = 0;
+            foreach (var item in list)
+            {
+                S += item;
+            }
+            Output.Text = S.ToString();
+        }
     }
 }
